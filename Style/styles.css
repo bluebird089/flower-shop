@@ -5,6 +5,22 @@
     font-family: 'Lato', sans-serif;
 }
 
+.uni-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.uni-heading-text {
+    color: rgba(39, 39, 39, 0.60);
+    margin: 10px auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    width: 50%;
+}
+
 .banner {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -40,11 +56,20 @@
     color: #fff;
 }
 
-.banner img{
+.banner img {
     width: 350px;
     height: 430px;
     margin-top: 50px;
 }
 
 /* Our Featured Flowers Section */
-.featured-section
+.featured-section {
+    padding: 100px;
+}
+
+.featured-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
