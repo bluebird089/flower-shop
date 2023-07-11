@@ -64,31 +64,40 @@
 
 /* Our Featured Flowers Section */
 .featured-section {
-    padding: 100px 150px;
+    padding: 100px;
 }
 
-.featured-heading {
-    color: #272727;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 800;
-}
-
-.featured-images{
+.featured-images {
     display: flex;
 }
 
-.featured-images .img-box{
-    margin: 0px 10px;
+.img-box-container {
     width: 33%;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    border-radius: 160px 165px 0px 0px;
     margin-top: 30px;
 }
 
-.featured-images .img-box img{
-    width: 70%;
-    margin-top: 50px;
+.flower-name {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+}
+
+.img-box {
+    height: 400px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 140px 140px 0px 0px;
+}
+
+.img-box img {
+    width: 80%;
+
+}
+
+
+.services {
+    padding: 0px 100px;
 }
