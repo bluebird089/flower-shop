@@ -99,5 +99,23 @@
 
 
 .services {
-    padding: 0px 100px;
+    margin: 0px 100px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.services .iocn-section{
+    text-align: center;
+}
+
+.iocn-section img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.iocn-section p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
 }
