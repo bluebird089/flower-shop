@@ -106,16 +106,60 @@
     padding: 50px;
 }
 
-.services .iocn-section{
+.services .iocn-section {
     text-align: center;
 }
 
-.iocn-section img{
+.iocn-section img {
     width: 60px;
     margin-bottom: 20px;
 }
 
-.iocn-section p{
+.iocn-section p {
     color: rgba(39, 39, 39, 0.80);
     font-size: 15px;
+}
+
+/* Sale Section */
+
+.sale {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding: 50px 100px;
+    margin: 100px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+.sale-text{
+    width: 50%;
+    text-align: center;
+}
+
+.sale-text h3 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+.off-text{
+    color: #E55473;
+}
+
+.sale-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.sale-text button{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #E55473;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.sale img{
+    width: 30%;
 }
